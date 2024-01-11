@@ -1,0 +1,145 @@
+@media(max-width: 320px) {
+  body {
+    font-size: 12px;
+  }
+
+  .container {
+    max-width: 320px;
+    padding: 0 10px;
+  }
+
+  .header {
+    padding: 15px 0;
+  }
+
+  .header__inner {
+    justify-content: space-between;
+    gap: 0;
+  }
+
+  .logo {
+    position: static;
+  }
+
+  .logo__img {
+    display: none;
+  }
+
+  .logo__img--mobile {
+    display: block;
+  }
+
+  .menu {
+    margin-left: 0;
+  }
+
+  .menu__list {
+    flex-direction: column;
+    gap: 10px 0;
+  }
+
+  .menu__link {
+    font-size: 12px;
+    padding: 10px;
+    max-width: 170px;
+    text-align: center;
+  }
+
+  .hero {
+    height: 200px;
+  }
+
+  .hero__slide img {
+    width: 320px;
+    height: 200px;
+  }
+
+  .hero__title {
+    top: 44%;
+    left: 10px;
+  }
+
+  .hero__img {
+    height: 200px;
+  }
+
+  .reviews {
+    padding: 25px 0;
+  }
+
+  .reviews__title {
+    margin-bottom: 15px;
+  }
+
+  .reviews__subtitle {
+    font-size: 12px;
+  }
+
+  .info__inner {
+    height: 213px;
+  }
+
+  .info__title {
+    font-size: 12px;
+  }
+
+  .mailing {
+    padding: 40px 0;
+  }
+
+  .mailing__title {
+    margin-bottom: 15px;
+  }
+
+  .mailing__form {
+    gap: 0 10px;
+  }
+
+  .mailing__form-btn {
+    font-size: 12px;
+  }
+
+  .mailing__popup {
+    width: 250px;
+    padding: 10px 20px 20px 20px;
+  }
+
+  .mailing__popup-close-img {
+    width: 10px;
+    height: 10px;
+  }
+
+  .mailing__popup-title {
+    font-size: 14px;
+  }
+
+  .mailing__popup-text {
+    font-size: 12px;
+  }
+
+  .mailing__form-input {
+    font-size: 12px;
+    width: 170px;
+    padding-top: 5px;
+  }
+
+  .footer {
+    padding: 20px 0;
+  }
+
+  .footer__inner {
+    display: block;
+  }
+  
+  .footer__copyright {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .footer__bottom-line,
+  .footer__email,
+  .footer__user-list,
+  .footer__help-list {
+    display: none;
+  }
+}

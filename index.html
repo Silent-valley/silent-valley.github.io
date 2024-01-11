@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="main_css/slick.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main_css/style.css">
+    <link rel="stylesheet" href="main_css/media.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <a class="logo" href="index.html">
+            <img class="logo__img" src="main_images/logo.svg" alt="logo">
+            <img class="logo__img--mobile" src="main_images/logo-mobile.svg" alt="logo">
+          </a>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a class="menu__link" href="work.html">ПОДАТЬ РАБОТУ</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="contacts.html">КОНТАКТЫ</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="about.html">О НАС</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="hero hidden">
+        <div class="hero__slider">
+          <div class="hero__slide">
+            <img src="main_images/hero-bg-1.jpg" alt="">
+          </div>
+          <div class="hero__slide">
+            <img src="main_images/hero-bg-2.jpg" alt="">
+          </div>
+          <div class="hero__slide">
+            <img src="main_images/hero-bg-3.jpg" alt="">
+          </div>
+        </div>
+        <div class="container">
+          <h1 class="hero__title">
+            Место популизации научных работ в России
+          </h1>
+        </div>
+      </section>
+      <section class="reviews hidden">
+        <div class="container">
+          <h2 class="reviews__title">
+            Отзывы о нашем проекте
+          </h2>
+          <h3 class="reviews__subtitle">
+            Отправляйте свои работы и Вы нам!
+          </h3>
+          <div class="reviews__slider">
+            <div class="reviews__slide">
+              <blockquote class="reviews__blockquote">
+                Я недавно начал использовать Потенциалом Науки и уже могу сказать, что это отличное дополнение к моей научной работе. Этот сайт предоставляет быстрый и легкий доступ к множеству рецензируемых научных журналов и статей, экономя мне много времени и усилий.
+              </blockquote>
+            </div>
+            <div class="reviews__slide">
+              <blockquote class="reviews__blockquote">
+                Интерфейс сайта очень интуитивно понятен, и поиск нужных статей осуществляется быстро и эффективно. Потенциал Науки также предлагает подробные аннотации к статьям, что помогает мне принимать решение о том, стоит ли читать статью полностью.
+              </blockquote>
+            </div>
+            <div class="reviews__slide">
+              <blockquote class="reviews__blockquote">
+                Мне нравится, что Агрегвтор предоставляет ссылки на полные тексты статей, позволяя мне читать их прямо с сайта. Это избавляет от необходимости регистрироваться и платить за доступ на других платформах.
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="info hidden">
+        <div class="container">
+          <div class="info__inner">
+            <h2 class="info__title">
+              Потенциал Науки - надежный сервис публикаций, обеспечивающий международное качество
+            </h2>
+          </div>
+        </div>
+      </section>
+      <section class="mailing hidden">
+        <div class="container">
+          <div class="mailing__inner">
+            <h2 class="mailing__title">
+              Подпишись на нашу рассылку
+            </h2>
+            <form class="mailing__form">
+              <input class="mailing__form-input" type="text">
+              <button class="mailing__form-btn" type="button">Подписаться</button>
+              <div class="mailing__popup">
+                <button class="mailing__popup-close" type="button">
+                  <img class="mailing__popup-close-img" src="main_images/close-btn.png" alt="">
+                </button>
+                <h3 class="mailing__popup-title">
+                  , спасибо за подписку!
+                </h3>
+                <p class="mailing__popup-text">
+                  Теперь Вы будете получать эксклюзивные предложениями и первыми узнавать о наших новинках.
+                </p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer hidden">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__copy">
+            <p class="footer__copyright">@2023 SciencePotential</p>
+            <span class="footer__bottom-line"></span>
+            <div class="footer__email">
+              <span class="footer__email-text">У нас есть почта</span>
+              <a class="footer__email-link" href="mailto:sciencepotential@gmail.com">
+                sciencepotential@gmail.com
+              </a>
+            </div>
+          </div>
+          <ul class="footer__user-list">
+            <li class="footer__user-title">Пользователям</li>
+            <span class="footer__bottom-line"></span>
+            <li class="footer__user-item">
+              <a class="footer__user-link" href="/work.html">
+                Подать работу
+              </a>
+            </li>
+            <li class="footer__user-item">
+              <a class="footer__user-link" href="/about.html">
+                О нас
+              </a>
+            </li>
+           </ul>
+           <ul class="footer__help-list">
+            <li class="footer__help-item">Помощь</li>
+            <span class="footer__bottom-line"></span>
+            <li class="footer__help-item">
+              <a class="footer__help-link" href="/contacts.html">
+                Контакты
+              </a>
+            </li>
+          </ul>
+        </div>      
+      </div>
+    </footer>
+    <script src="main_js/jquery.js"></script>
+    <script src="main_js/slick.min.js"></script>
+    <script src="main_js/main.js"></script>
+  </body>
+</html>
